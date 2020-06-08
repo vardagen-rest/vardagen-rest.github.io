@@ -12,17 +12,27 @@ footer {
     width: 100%;
 }
 
+.footer-content {
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
 .menu {
+    position: absolute;
     list-style: none;
     width: 100%;
-    margin: 0 0 0 32px;
-    padding-left: 0;
+    margin: 0 0 0 0;
     height: 64px;
+    top: 0;
+    left: 0;
+    padding: 0 0 0 0;
+    align-content: center;
 }
 
 .menu li {
-    display: inline;
-    margin-right: 32px;
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 16px;
 }
 
 .menu a {
@@ -35,18 +45,32 @@ footer {
     font-size: 64px;
 }
 
+.logo-container {
+    height: 256px;
+    width: 100%;
+    display: block;
+}
+
 .logo {
     display: block;
     float: left;
     margin-left: 32px;
     margin-top: 32px;
     text-align: right;
-    height: 256px;
+}
+
+.gallery-container {
+    height: 512px;
+    width: 100%;
+    align-content: center;
 }
 
 .gallery {
-    align-content: center;
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 512px;
 }
 
 .gallery img {
