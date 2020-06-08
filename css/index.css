@@ -84,3 +84,32 @@ footer {
     height: 128px;
     background-color: red;
 }
+
+@media only screen and (max-width: 600px) {
+    .logo-container {
+        height: 256px;
+        width: 100%;
+        display: block;
+    }
+
+    .logo {
+        display: block;
+        float: left;
+        margin-left: 32px;
+        margin-top: 32px;
+        text-align: right;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 10em;
+        display: inline;
+    }
+
+    .menu li {
+        font-size: 24px;
+        display: inline-block;
+        margin-left: 32px;
+        margin-top: 16px;
+    }
+}
